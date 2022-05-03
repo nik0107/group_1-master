@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+</head>
+<body>
+    <p><a href="index.html">Вернуться на главную</a></p>
+    <p> <a href="#form">Перейти к форме</a></p>
+    <h1>Тема занятия:Формы</h1>
+    <p>Я изучаю верстку формы на HTML</p>
+    <form action="" method="post" id="form">
+        <p class="m0">Фамилия</p>
+        <input type="text" placeholder="Введите фамилию" name="Фамилия пользавателя"required size="30">
+         <p class="m0">Имя</p>
+         <input type="text" placeholder="Введите имя" name="Имя пользавателя" required size="30">
+        <p class="m0">Электронная почта</p>
+        <input type="email" placeholder="Введите почту" size="30">
+        <p class="m0">Школа и класс</p>
+        <input type="text" placeholder="Введите школу и класс" size="30"> 
+        <p class="m0">Курс</p>
+        <input type="text" name="cource-name" value="WEB конструирование" readonly size="30">
+        <p class="m0">Группа</p>
+        <input type="text" name="group" placeholder="Введите номер группы" size="30">
+        <p><select name="age" id="">
+            <option value="Сколько вам лет" disabled selected>Сколько вам лет?</option>
+            <option value="18-25">18-25</option>
+            <option value="26-30">26-30</option>
+            <option value="31-45">31-45</option>
+        </select></p>
+        <textarea name="request" id="" cols="50" rows="20" placeholder="Введите свой вопрос" maxlength="500"></textarea>
+        <p class="m0">Мои любимый интернет-ресурс</p>
+        <input type="url" placeholder="Введите веб-сайт" size="30">
+        <p class="m0">Мои любимый цвет</p>
+        <input type="color" value="#000000">
+        <p class="m0">Дата рождения</p>
+        <input type="date" placeholder="дд.мм.гггг">
+        <p><input class="button" type="submit" name="button" value="Отправить"></p> 
+    </form>
+</body> 
+</html>

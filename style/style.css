@@ -1,0 +1,36 @@
+body {
+    font-size: 20px;
+}
+h1 {
+    text-transform: uppercase;
+}
+span {
+    font-weight: bold;
+}
+.color1 {
+    color: #800080;
+}
+.color2 {
+    color: #000080;
+}
+.color3 {
+    color: #0e010e;
+}
+.author {
+    font-size: 15px;
+}
+
+.m0 {
+    margin: 0;
+    margin-top: 15px;
+}
+
+.button {
+    color: black;
+    background: chartreuse;
+    border-radius: 40px;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    font-style: oblique;
+}
